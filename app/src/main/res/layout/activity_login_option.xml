@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_social_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.hamiroid.moshaere.LoginOptionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="33.60dp"
+            android:paddingRight="33.60dp">
+
+
+            <ImageView
+                android:layout_width="180.00dp"
+                android:layout_height="180.00dp"
+                android:layout_gravity="center"
+                android:src="@drawable/circle_moshaere" />
+
+            <Button
+                android:id="@+id/sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="33.60dp"
+                android:background="#00B8D4"
+                android:padding="16.80dp"
+                android:text="ورود"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="19.20dp"
+                android:background="#00BCD4"
+                android:padding="16.80dp"
+                android:text="ثبت نام"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/without_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="19.20dp"
+                android:background="#00ACC1"
+                android:padding="16.80dp"
+                android:text="بازی بدون ثبت نام"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/login_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="38.40dp"
+                android:text="ثبت نام کرده اید؟ وارد شوید"
+                android:textColor="@color/colorWhite"
+                android:textSize="26.40dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/no_login"
+            android:layout_width="match_parent"
+            android:layout_height="45.00dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="اگر بدون ثبت نام بازی کنید، امتیاز شما ذخیره نخواهد شد!"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+</LinearLayout>
